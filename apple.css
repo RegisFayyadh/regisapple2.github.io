@@ -1,0 +1,100 @@
+.navbar{
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+}
+
+.nav{
+    max-width: 1024px;
+    padding: 0 22px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.apel{
+    height: 20px;
+}
+
+.serch{
+    height: 15px;
+}
+
+.bag{
+    height: 15px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main .mainHeader{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+
+.main .mainHeader .title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main .mainHeader .title h1{
+
+}
+
+.main .mainHeader .title h3{
+
+}
+
+.main .mainHeader .title p{
+
+}
+
+.main .mainHeader .gambar img{
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main .contain{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(macbook-pro-m1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1100px;
+}
+
+.main .contain .link a{
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+    padding: 25px;
+}
+
+.main .contain h1, h3{
+    color: white;
+}
